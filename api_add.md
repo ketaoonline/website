@@ -42,6 +42,7 @@
 - 请求参数
 	- loginsign
 	- id
+	- order_id (列表中返回给你的id)
 	- admin_price（预估价格）
 - 返回
   - 同上
