@@ -1,4 +1,4 @@
-### 汽车消费贷审批 carApproval
+### 汽车消费贷审批 home/carApproval
 - 请求参数
 	- loginsign
 	
@@ -17,3 +17,31 @@
 	- code 1 成功
 	
 	- code 0 失败 
+
+
+### 图片上传 home/ossImageSave
+- 请求参数
+	- loginsign
+	- id
+	- name 与之前的图片上传规则一致 name="image_data[11][0]" type="file"
+- 返回
+  - 同上
+
+
+### 待估价列表 AppAdmin/priceList
+- 请求参数
+	- loginsign
+	- id
+- 返回
+  - 同上
+
+### 图片取回 home/ossImageDown
+- 同之前的图片取回规则一致
+
+### 二手车估价 AppAdmin/secondApproval
+- 请求参数
+	- loginsign
+	- id
+	- admin_price（预估价格）
+- 返回
+  - 同上
